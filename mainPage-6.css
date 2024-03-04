@@ -7,27 +7,22 @@ header{
     width: 100%;
     height: 30;
     background-color: #eeeeee;
-    /* background-color: #8b0000; */
-    /* border: solid #f98701; */
+    border-bottom: thin solid #000;
 }
-
+header hr{display: none;}
 .flex-header{
     width: 100%;
     height: 100%;
-
 }
-
 .header-left,.header-right{
     width: 33%;
     height: 60px;
     padding: 5px 15px;
     background-color: #fff;
 }
-
 .header-left{
     border-radius: 0 0 99px 0; 
 }
-
 .header-right{
     border-radius: 0 0 0 99px;
     display: flex;
@@ -192,11 +187,10 @@ main{
     justify-content: space-between;
     padding: 5px;
     margin: 5px;
-    background-color: #eeeeee;
+    background-color: #eeeeee !important;
     gap: 30px;
-
 }
-
+main .gallary{background-color: #FFF;}
 .left{
     width: 30%;
     /* height: 100%; */

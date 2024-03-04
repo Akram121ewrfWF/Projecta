@@ -1,0 +1,342 @@
+@media screen and (max-width: 350px) {
+*{
+    font-size: small;
+    box-sizing: border-box;
+}
+.continear{
+
+    min-width: 190px !important;
+    max-width: 325px !important;
+    height: auto;
+    overflow-x: hidden !important;
+    /* border: solid #0000ff; */
+}
+/* Start header */
+    header{
+        height: 58px;
+        min-width: 200px !important;
+        max-width: 316px !important;
+        position: fixed !important;
+        top : 0px !important; 
+        z-index: 1 !important;
+        /* border: solid #ff0000; */
+    }
+    .flex-header{
+        display: flex;
+        justify-content: center !;
+        align-items: center !important;
+        /* border: solid #ff0000;  */
+        width: 100%;
+    }
+    .header-left > .icone-left a i:first-child, .header-right > i{
+        font-size: 1.6em;
+    }
+    .left-LOGO{
+        margin-top: 60px !important;
+    }
+    .parent-header{
+        /* border: solid #0000ff; */
+        height: 100%;
+        /* width: 100% !important; */
+        min-width: 200px !important;
+        max-width: 316px !important;
+    }
+/* ُEnd header */
+/* Start left-header */
+.icone-left a{
+    display: none;
+}
+.icone-left a:last-child{
+    display: block;
+}
+.header-left{
+    width: 46%;
+    height: 50px;
+    padding: 5px 15px;
+    background-color:inherit;
+    /* border: solid blue; */
+    border-radius: 0; 
+}
+.icone-left a{
+    color: #f98701;
+    font-size: 1.2em;
+    margin-bottom: 6px;
+}
+.icone-left  a i:last-child:hover{
+    color: #FFF;
+}
+/* End left-header */
+/* Start right-header */
+.header-right h4{
+    display: none;
+}
+.header-right{
+    width: 40%; 
+    height: 50px;
+    padding: 5px 15px;
+    background-color:inherit;
+    /* border: solid blue; */
+    border-radius: 0; 
+}
+.header-right  i{
+    visibility: visible !important;
+}
+/* End right-header */
+/* Start center-header */
+.LOGO{
+    width: 60% !important;
+    height: 50px !important;
+    /* border: solid  blue medium; */
+    align-self:normal !important;   
+    margin-top: 0 !important;
+    padding: 0 !important;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.LOGO a img{
+    width: 94% !important;
+    height: 95% !important;
+    min-width: 100px;
+    max-width: 210px;
+    /* border: solid #ff0000; */
+} 
+.LOGO  > a{
+    /* border: solid forestgreen; */
+    display: inline-block;
+    width: 100% !important;
+    align-self:flex-start !important;
+    height: 100% !important;
+    margin-top: -10px;
+}
+.LOGO img{
+    display: inline-block;   
+}
+/* End center-header */
+/* Start main */
+main{
+    flex-direction: column;
+    width: 97% !important;
+    padding: 5px 10px;
+    height: 80%;
+    /* border: solid #ff0000; */
+    background-color: #FFF;
+}
+main .left,main .right{align-self: end}
+.left .left-LOGO::before{
+    content: "";
+    border-bottom: solid #f98701 5px;
+    border-top-right-radius: 14px; 
+    background-image: url(icon.webp);
+    background-repeat: no-repeat;
+    background-position:  right;
+    background-size: contain;
+    position: absolute;
+    bottom: 10;
+    width: 160px;
+    height: 41.5px;
+}
+.left-LOGO > a{
+    width: 100px !important;
+    height: fit-content !important;
+}
+main .left,main .right{
+    width: 100%;
+}
+ main .gallary  img{
+    min-width: 150px !important;
+    width: 100% !important;
+    height: 180px !important;
+    max-width: 350px !important;
+}
+.gallary{
+    min-width: 195px;
+     max-width: 360px;
+}
+main .gallary h1{
+    font-size: 1.5em !important;
+} 
+
+main .left{margin-bottom: -20px;}
+/* Start main > footer */
+main .Next .float{
+    height: 39.1px; 
+    width: 145px;
+}
+main .Next{width: 100%;}
+/* End main > footer */
+/* End main */
+/* Start navigation */
+nav{display: none;}
+/* End navigation */
+}
+@media screen and (min-width: 351px) and (max-width: 500px){
+    *{
+        font-size: small;
+        box-sizing: border-box;
+    }
+    .continear{
+        min-width: 330px !important;
+        max-width: 555px !important;
+        height: auto;
+        overflow-x: hidden !important;
+        /* border: solid #0000ff; */
+    }
+    /* Start header */
+    header{
+        height: 58px;
+        min-width: inherit !important;
+        max-width: 478px !important;
+        position: fixed !important;
+        top : 0px !important; 
+        z-index: 1 !important;
+    }
+    header + hr{
+        display: none;
+    }
+    .header-right h4 + i{
+         visibility: visible !important;
+    }
+    #LOGO-main{
+        margin-top: 90px !important;
+    }
+    header .header-right{
+        width: fit-content !important;
+        /* border: #f98701 solid !important; */
+        /* min-width: 90px !important; */
+        /* max-width: 100px !important; */
+        width: 100px !important;
+    }
+          header .header-left{
+            min-width: 90px !important;
+            max-width: 140px !important;
+            /* border: #f98701 solid !important; */
+          }
+    .flex-header{
+        width: 100% !important;
+        height: 100% !important;
+        /* border: solid green;  */
+    }
+    .parent-header{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .icone-left a{
+        display: none;
+    }
+    .icone-left a:last-child{
+        display: block;
+    }
+
+    .header-right h4{
+
+        display: none;
+    }
+
+    .header-left,.header-right{
+        width: 37%;
+        height: 50px;
+        padding: 5px 15px;
+        background-color:inherit;
+        /* border: solid blue; */
+        border-radius: 0; 
+    }
+    .header-left > .icone-left a i:first-child, .header-right > i{
+        font-size: 1.6em;
+    }
+    .header-left > .icone-left a i:first-child{color: #f98701;}
+    .header-left > .icone-left a i:first-child:hover{color: white;}
+    /* .section-one > .LOGO-main{border: solid gold !important} */
+
+    .LOGO{
+        width: 60% !important;
+        height: 50px !important;
+        /* border: solid  blue medium; */
+        align-self:normal !important;   
+        margin-top: 0 !important;
+        padding: 0 !important;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+    .LOGO a img{
+        width: 95% !important;
+        height: 95% !important;
+        min-width: 100px;
+        max-width: 200px;
+    } 
+
+    .LOGO  > a{
+        /* border: solid forestgreen; */
+        display: inline-block;
+        width: 100% !important;
+        align-self:flex-start !important;
+        height: 100% !important;
+        margin-top: -10px;
+    }
+    .LOGO img{
+        display: inline-block;
+        
+    }
+    .flex-header{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    /* End center-header */
+    /* Start main */
+    main{
+        flex-direction: column;
+        width: 97% !important;
+        padding: 5px 10px;
+        height: 80%;
+        /* border: solid #ff0000; */
+        background-color: #FFF;
+    }
+    main .left,main .right{align-self: end}
+    .left .left-LOGO::before{
+        content: "";
+        border-bottom: solid #f98701 5px;
+        border-top-right-radius: 14px; 
+        background-image: url(icon.webp);
+        background-repeat: no-repeat;
+        background-position:  right;
+        background-size: contain;
+        position: absolute;
+        bottom: 10;
+        width: 160px;
+        height: 41.5px;
+    }
+    .left-LOGO > a{
+        width: 100px !important;
+        height: fit-content !important;
+    }
+    main .left,main .right{
+        width: 100%;
+    }
+     main .gallary  img{
+        min-width: 150px !important;
+        width: 100% !important;
+        height: 200px !important;
+        max-width: 430px !important;
+    }
+    .gallary{
+        /* min-width: 195px; */
+         /* max-width: 360px; */
+         width: 100% !important;
+    }
+    main .gallary h1{
+        font-size: 1.5em !important;
+    } 
+    main .left{margin-bottom: -20px;}
+    /* Start main > footer */
+    main .Next .float{
+        height: 39.1px; 
+        width: 145px;
+    }
+    main .Next{width: 100%;}
+    /* End main > footer */
+    /* End main */
+    /* Start navigation */
+    nav{display: none;}
+    /* End navigation */
+}

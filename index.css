@@ -43,6 +43,7 @@ header{
 .flex-header{
     display: flex;
     justify-content: space-between;
+    /* border: solid #ff0000;  */
 }
 
 .flex-header .LOGO{
@@ -55,7 +56,6 @@ header{
 .LOGO a {
     display: inline-block;
 }
-
 
 .flex-header .LOGO img{
     width: 100%;
@@ -184,12 +184,10 @@ nav ul li a i:first-child{
 }
 
 nav ul li a i:first-child:hover{
-
     color: #ff0000 !important;
 }
 
 nav ul li a i:first-child{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,7 +197,7 @@ nav ul li a i:first-child{
 
 /* Start main */
 main{
-    width: calc(100%);
+    width: 100%;
     height: 100%;
     padding: 10px 25px;
     /* border: solid #8b0000; */
@@ -212,6 +210,7 @@ main .gallry{
     background-color: #fff;
     /* border: solid #ff0000; */
 }
+main .gallry #LOGO-main{margin-bottom: -20px;}
 
 main .gallry .line-one{
     /* border: solid #8b0000; */
