@@ -1,5 +1,4 @@
 /* smart phone */
-
 @media screen and (max-width: 350px){
     *{
         font-size: small;
@@ -27,7 +26,7 @@
     }
     header .header-right{
         width: fit-content !important;
-        width: 100px !important;
+        width: 120px !important;
     }
           header .header-left{
             min-width: 90px !important ;
@@ -225,18 +224,11 @@ main{
     height: 40.5px;
 }
 /* main */
-
 .gallry{
     display: flex;
     flex-direction: column;
 }
-
-
-    /* nav */
-    #flex{
-        /* display: none; */
-    }
-
+    /* nav */   
     nav ul {
         flex-flow: row-reverse ; 
         align-items: center;
@@ -247,43 +239,28 @@ main{
         align-items: center;
         width: 100% ;
 
-    }
-
-    nav ul li:last-child{
-        /* border: 5px solid greenyellow; */
-    }
-    
+    }    
     nav ul li a:first-child{
         width: 30px;
         height: 30px;
-        /* border: 5px solid greenyellow; */
     }
-
     nav{
         /* border: blue solid; */
         width: calc(100% - 8px);
         margin-top: 5px;
     }
-
-
-    nav ul li:first-child{
-        
+    nav ul li:first-child{  
         order: 1;
     }
-
     nav ul li{
-        /* border: solid green ; */
         width: 25%;
         height: 58px;
         text-decoration: underline;
         line-height: 20px;
-        /* margin-right: 5px; */
         translate: -20px;
     }
-
     nav ul li a {
         padding: 0 !important;
-        /* border: solid blue; */
         width: 100% !important;
         text-decoration: underline;
         height: 100% !important;
@@ -291,142 +268,97 @@ main{
 
     nav ul li a i{
         padding: 0 !important;
-        /* border: solid saddlebrown medium; */
         width: 100% !important;
         height: 100% !important;
-
     }
     /* nav */
 
     /* footer */
     footer{
-        /* width: calc(100% - 10px); */
         width: 100% !important;
-        /* border: solid #ff0000; */
     }
-    .border{
-      /* border: solid green; */
-    }
-
-    .border + div{
-        /* border: solid #0000ff !important; */
-    }
-
     .border a img{
-        /* border:#f98701 solid; */
         min-width: 60px !important;
         max-width: 95px !important;
     }
     footer .icone-left a:last-child{display: none !important;}
-
     footer .icone-left a{
         display: block !important;
-        /* border: solid blue; */
         width: 100% !important;
         max-width: 90px !important;
-        /* margin-left: 2px !important; */
-        /* margin-right: 2px !important; */
         font-size: x-small;
     }
-
     .icone-left{
-        /* border: solid #ff0000; */
         min-width: 100px !important;
         max-width: 250px !important; 
     }
-    
     .Link{
+        margin-top: 8px;
+        max-width: 275px;
+        display: flex;
+        flex-flow: wrap row !important;
+        justify-content: center;
+    }
+    .Link > a{
+        font-size: 1.3em;
+        margin-top: 3px;
+        margin-bottom: 3px;
         /* border: solid #ff0000; */
     }
-
-    .Link a{
-        /* border: #0000ff solid; */
-        font-size: 1.3em;
-        margin-top: 1px;
-        min-width: 120px !important;
-        max-width: 270px !important;
-        margin-bottom: 1px;
-    }
-
-
     footer .flex-column{
-        /* border: solid green; */
-        width: calc(100%)!important;
+        width: 100% !important;
     }
-
     footer .flex-column a img{
         width: 230px !important;
         min-width: 90px;
         max-width: 180px;
     }
-
     /* footer */
-}
-
 /* small phone */
+}
 
 @media screen and (min-width: 351px) and (max-width: 500px) {
 
     .continear{
-        /* width: 100%;  */
         min-width: 330px;
         max-width: 550px !important;
         height: auto;
         overflow-x: hidden !important;
-        /* border: solid #0000ff; */
     }
     body{overflow-x: hidden !important;}
-
     nav{display: none;}
-
     *{
         font-size: small;
     }
-
     header{
         height: 58px;
-        /* width: calc(100% - 8px); */
         min-width: inherit !important;
         max-width: 478px !important;
-        /* background-color: #080808 !important; */
-        /* border: solid #ff0000; */
         position: fixed !important;
         top : 0px !important; 
         z-index: 1 !important;
     }
-
     header + hr{
         display: none;
     }
-
     .header-right h4 + i{
          visibility: visible !important;
     }
-
     #LOGO-main{
         margin-top: 90px !important;
     }
-
-
     header .header-right{
         width: fit-content !important;
-        /* border: #f98701 solid !important; */
-        /* min-width: 90px !important; */
-        /* max-width: 100px !important; */
-        width: 100px !important;
+        width: 140px !important;
     }
-    
           header .header-left{
             min-width: 90px !important;
-            max-width: 140px !important;
-            /* border: #f98701 solid !important; */
+            max-width: 130px !important;
+            /* border: #0000ff solid; */
           }
-
-
     .flex-header{
         width: 100% !important;
         height: 100% !important;
-        /* border: solid green;  */
     }
 
     .parent-header{
@@ -446,41 +378,32 @@ main{
 
         display: none;
     }
-
     .header-left,.header-right{
         width: 45%;
         height: 50px;
         padding: 5px 15px;
         background-color:inherit;
-        /* border: solid blue; */
         border-radius: 0; 
     }
     .header-left > .icone-left a i:first-child, .header-right > i{
         font-size: 1.6em;
     }
-
-    /* .section-one > .LOGO-main{border: solid gold !important} */
-
     .LOGO{
         width: 60% !important;
         height: 50px !important;
-        /* border: solid  blue medium; */
         align-self:normal !important;   
         margin-top: 0 !important;
         padding: 0 !important;
         margin-left: 1px;
         margin-right: 1px;
     }
-
     .LOGO a img{
         width: 95% !important;
         height: 95% !important;
         min-width: 100px;
         max-width: 200px;
     } 
-
     .LOGO  > a{
-        /* border: solid forestgreen; */
         display: inline-block;
         width: 100% !important;
         align-self:flex-start !important;
@@ -497,36 +420,25 @@ main{
         align-items: flex-start;
     }
 /* main */
-
 main .gallry .line-one, .line-two{
     flex-direction: column;
 }
-
 main{
-    /* width: calc(100% - 8px); */
     padding: 5px 10px;
     height: 80%;
-    /* border: solid slateblue; */
 }
 
 .section-one{
-    /* border: solid #ff0000; */
      width: 100% !important; 
 }
-
 .gallry{
-    /* border: #ff0000 solid; */
     width: 100% !important;
 }
-
 .line-one,.line-two{
-    /* border: solid #ff0000; */
     width: 100% !important;
     height: 100% !important;
 }
-
 #LOGO-main{align-self: flex-end;}
-
 .section-one #LOGO-main a::after{
     border-bottom: solid #f98701 5px;
     border-top-right-radius: 14px; 
@@ -547,8 +459,6 @@ main{
     font-size: 1.7em;
     
 }
-
-
 .line-one + #LOGO-main a::after{
     border-bottom: solid #f98701 5px;
     /* border: none !important; */
@@ -566,13 +476,10 @@ main{
     min-width: 100px !important;
     max-width: 150px !important;
 }
-
 .line-two > a, .line-one > a{
-    /* border: solid blue !important; */
     margin-bottom: 6px;
     margin-top: 6px;
 }
-
 .line-two > a > h2, .line-one a > h2{
     margin-top: 10px;
 }
@@ -583,18 +490,14 @@ main{
 }
 
 .line-one a > h2{
-    /* border: solid #ff0000; */
     font-size: 1.9em;
 }
-
 .section-one .gallry #LOGO-main + .line-one{border:#080808  !important;
         margin-bottom: 10px !important;
 }
 
 .line-two{
     height: 200px;
-    /* border: solid #f98701 ;
-     */
     margin-top: 20px !important;
     width: 100% !important;
 }
@@ -603,7 +506,6 @@ main{
         height: 250px !important;
         min-width: 320px !important;
         max-width: 470px !important;
-        /* border: solid #ff0000 !important; */
 }
 
 .line-two a img{
@@ -617,13 +519,11 @@ main{
     display: inline-block;
     color:#080808;
     text-decoration: none;
-    /* border: solid blue; */
     width: 100%;
     font-size: 1.9em;
     height: 100%;
     padding: 5px;
     font-weight: bold;
-
 }
 
 .section-one #LOGO-main a::after{
@@ -647,11 +547,7 @@ main{
     flex-direction: column;
 }
 
-
     /* nav */
-    #flex{
-        /* display: none; */
-    }
 
     nav ul {
         flex-flow: row-reverse ; 
@@ -663,12 +559,7 @@ main{
         align-items: center;
         width: 100% ;
 
-    }
-
-    nav ul li:last-child{
-        /* border: 5px solid greenyellow; */
-    }
-    
+    }    
     nav ul li a:first-child{
         width: 30px;
         height: 30px;
@@ -708,8 +599,7 @@ main{
     }
 
     nav ul li a i{
-        padding: 0 !important;
-        /* border: solid saddlebrown medium; */
+        padding: 0 !important; 
         width: 100% !important;
         height: 100% !important;
 
@@ -717,20 +607,7 @@ main{
     /* nav */
 
     /* footer */
-    footer{
-        /* width: calc(100% - 10px); */
-        /* border: solid #ff0000; */
-    }
-    .border{
-      /* border: solid green; */
-    }
-
-    .border + div{
-        /* border: solid #0000ff !important; */
-    }
-
     .border a img{
-        /* border:#f98701 solid; */
         min-width: 60px !important;
         max-width: 110px !important;
     }
@@ -738,44 +615,49 @@ main{
 
     footer .icone-left a{
         display: block !important;
-        /* border: solid blue; */
         width: 100% !important;
         max-width: 90px !important;
-        /* margin-left: 2px !important; */
-        /* margin-right: 2px !important; */
         font-size: small;
+        /* border: solid #00ff00; */
         width: fit-content !important;
     }
-
-    footer .icone-left a i {
-        font-size: 1.9em !important;
-    }
-
-    .icone-left{
-        /* border: solid #ff0000; */
-        min-width: 150px !important;
-        max-width: 480px !important;
-    }
     
+    footer .icone-left a i {
+        font-size: 2em !important;
+        margin-left: 8px;
+    }
+    .icone-left{
+        min-width: 150px !important;
+        max-width: 470px !important;
+        margin-right: 17px;
+    }
     .Link{
-        /* border: solid green; */
+        /* border: solid #0000ff; */
+        margin-top: 8px;
+        max-width: 380px;
+        display: flex;
+        flex-flow: wrap row !important;
+        justify-content: center;
+    }
+    .Link > a{
+        font-size: 1.3em;
+        margin-top: 4.5px !important;
+        margin-bottom: 4.5px !important;
+        /* border: solid #ff0000; */
+    }
+
+    .Link{
         margin-top: 5px !important;
         margin-bottom: 5px !important; 
     }
-
     .Link a{
-        /* border: #ff0000 solid; */
         font-size: 1.5em;
         margin-top: 1px;
         margin-bottom: 1px;
     }
-
-
     footer .flex-column{
-        /* border: solid green; */
         width: calc(100%)!important;
     }
-
     footer .flex-column a img{
         width: 230px !important;
         min-width: 90px;
@@ -827,13 +709,7 @@ main{
 
     header{
         height: 90px;
-        /* width: calc(100% - 8px); */
-        /* min-width: 100px; */
-        /* max-width: 350px; */
-        /* background-color: #080808 !important; */
-        /* border: solid #ff0000; */
     }
-
 
     .parent-header .header-left, .parent-header .LOGO ,.parent-header .header-right{
     width: 100% !important;
@@ -847,7 +723,6 @@ main{
 
     header .header-right{
         width: fit-content !important;
-        /* border: #f98701 solid !important; */
         min-width: 120px !important;
         max-width: 220px !important;
     }
@@ -855,11 +730,7 @@ main{
           header .header-left{
             min-width: 120px !important;
             max-width: 220px !important;
-            /* border: #f98701 solid !important; */
-        
           }
-
-
     .header-right h4 + i{
          visibility: visible !important;
     }
@@ -899,12 +770,9 @@ main{
         font-size: 1.6em;
     }
 
-    /* .section-one > .LOGO-main{border: solid gold !important} */
-
     .LOGO{
         width: 60% !important;
         height: 50px !important;
-        /* border: solid  blue medium; */
         align-self:normal !important;   
         margin-top: 0 !important;
         padding: 0 !important;
@@ -920,7 +788,6 @@ main{
     } 
 
     .LOGO  > a{
-        /* border: solid forestgreen; */
         display: inline-block;
         width: 100% !important;
         align-self:flex-start !important;
@@ -947,25 +814,20 @@ main .gallry .line-one, .line-two{
 }
 
 main{
-    /* width: calc(100% - 8px); */
     padding: 5px 10px;
     height: 80%;
     width: 100% !important;
-    /* border: solid slateblue; */
 }
 
 .section-one{
-    /* border: solid #ff0000; */
      width: 100% !important; 
 }
 
 .gallry{
-    /* border: #ff0000 solid; */
     width: 100% !important;
 }
 
 .line-one,.line-two{
-    /* border: solid #ff0000; */
     width: 100% !important;
     height: 100% !important;
 }
@@ -992,11 +854,8 @@ main{
     font-size: 1.7em;
     
 }
-
-
 .line-one + #LOGO-main a::after{
     border-bottom: solid #f98701 5px;
-    /* border: none !important; */
     border-top-right-radius: 14px; 
     content: "";
     background-image: url(icon.webp);
@@ -1013,7 +872,6 @@ main{
 }
 
 .line-two > a, .line-one > a{
-    /* border: solid blue !important; */
     margin-bottom: 6px;
     margin-top: 6px;
 }
@@ -1024,11 +882,9 @@ main{
 
 .line-two > a > h2{
     font-size: 1.5em;
-    /* border: springgreen solid  */
 }
 
 .line-one a > h2{
-    /* border: solid #ff0000; */
     font-size: 1.9em;
 }
 
@@ -1038,8 +894,6 @@ main{
 
 .line-two{
     height: 200px;
-    /* border: solid #f98701 ;
-     */
     margin-top: 20px !important;
     width: 100% !important;
 }
@@ -1260,7 +1114,6 @@ main{
 
     /* footer */
 }
-
 
 /* large device */
 @media screen and (min-width: 701px) and (max-width: 1200px) {
@@ -2085,7 +1938,6 @@ main{
         /* width: 420px  !important; */
         min-width: 200px !important;
         max-width: 400px !important;
-
     }
 
     nav ul + #flex{
@@ -2171,7 +2023,6 @@ main{
         height: 100% !important;
 
     }
-
     /* nav */
 
     /* footer */
@@ -2217,12 +2068,11 @@ main{
     }
 
     .Link a{
-        /* border: #ff0000 solid; */
+        /* border: #ff0000 solid; *cf  
         font-size: 1.5em;
         margin-top: 1px;
         margin-bottom: 1px;
     }
-
 
     footer .flex-column{
         /* border: solid green; */
@@ -2234,6 +2084,5 @@ main{
         min-width: 90px;
         max-width: 180px;
     }
-
     /* footer */
 }

@@ -274,29 +274,21 @@ main .gallary{background-color: #FFF;}
     padding: 10px;
 }
 
-.Next,.previous{
-    
-    width: 160px;
-    height: 55px;
+.Next,.previous{    
+    width: 160px !important;
+    height: 39px !important;
     background-color:#f98701;
     transition: all 0.5s;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 5px;
+    margin-left: 8px;
 
-}
-
-.Next{
-    order: 1;
-}
-
-.Next > span{
-    order: 1;
 }
 
 .float a,span{
-
     display: inline-block;
     text-decoration: none;
     color: #FFF;
@@ -306,6 +298,14 @@ main .gallary{background-color: #FFF;}
 .Next:hover,.previous:hover{
     background-color: #8b0000;
     cursor: pointer;
+}
+
+.Next{
+    order: 1;
+}
+
+.Next > span{
+    order: 1;
 }
 
 

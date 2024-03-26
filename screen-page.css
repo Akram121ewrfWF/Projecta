@@ -199,6 +199,7 @@ nav{display: none;}
     #LOGO-main{
         margin-top: 90px !important;
     }
+    main .left{margin-top: 55px !important;}
     header .header-right{
         width: fit-content !important;
         /* border: #f98701 solid !important; */
@@ -319,6 +320,7 @@ nav{display: none;}
         height: 200px !important;
         max-width: 430px !important;
     }
+    
     .gallary{
         /* min-width: 195px; */
          /* max-width: 360px; */
@@ -339,4 +341,7 @@ nav{display: none;}
     /* Start navigation */
     nav{display: none;}
     /* End navigation */
+}
+@media  (opientation : landscape){
+
 }
