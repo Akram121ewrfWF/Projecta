@@ -1,0 +1,132 @@
+.dropdown .content-parent{
+    transition: 0.2s;
+    visibility: hidden;
+    width: inherit;
+    border: solid thin;
+    overflow: hidden;
+    position: absolute;
+    background-color: #fff;
+    top: 90px;
+    right: -438px;
+    width: 182.5vh;
+    height: 62vh;
+    z-index: 2 !important;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px 0 #000;
+}
+.dropdown:hover .content-parent{
+    visibility: visible;
+}
+.content-parent{height: auto !important;}
+h5{
+    list-style: none;
+    overflow: hidden;
+    font-size: medium;
+    font-weight: 600;
+    text-align: right;
+    /* border: solid red; */
+    padding-bottom: 5px;
+} 
+ h5:after{
+    background-image: url(WhatsAppImage2023-02-21at14.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    translate: 2px 8px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.box-right ul li{display: flex; flex-direction: ; flex-wrap: wrap;}
+.box-right  h5:after{
+background-image: url('WhatsAppImage2023-02-21at14\ \(2\).webp');
+}
+ul li a:hover{
+    /* border: solid red; */
+    color: green !important;
+}
+.box-right ul li a,.box-left ul li a{border: rebeccapurple ;width: 100%;}
+.navbar-nav{
+    border:  blue;
+    position: relative;
+}
+.box-right div{
+    /* border-left: thin solid; */
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    gap: 33px;
+}
+.box-right ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: end;
+    list-style: none;
+    gap: 5px;
+}
+.box-right .Two li {width: 270px;}
+.box-left{    padding-right: 10px;margin-left: 5px;}
+.box-right h5 {
+    margin-right: 20px;
+}
+#green{
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 13px;
+}
+#green:hover{
+    background-color: #fff;
+    border: solid green thin;
+    color: green;
+}
+#bold{
+    font-weight: bold;
+}
+#flex {border:  red;gap: 10px;}
+#flex > div{border: green}
+#flex > div::before{
+    content: '/';
+}
+#AN::before{content: '/';}
+.container > img{width: 100%;height:100%;}
+#Big-green li > a:hover{
+    font-size: large;
+}
+form label > span{color:#ff0000;}
+footer{background: #EEE;padding-top: 25px;padding-bottom: 15px;}
+#E::before{content: '1- ';}
+#F::before{content: '2- ';}
+#G::before{content: '3- ';}
+/*  */
+/*  */
+.box-left div ul{
+    /* border:solid red; */
+    list-style: none;
+    /* width: 50%; */
+    /* gap: 5px; */
+    /* margin: 5px; */
+}
+.box-left > div{
+    text-align: end;
+    display: flex;
+    /* justify-content: space-betwee; */
+    gap: 10px;
+}
+.box-left ul li{
+    /* border: solid blue; */
+    margin-top: 2px;
+}
+.none{
+    display: none !important;
+    }
+    .block{
+        display: block !important;
+    }
+    #B{display: none !important;}
+/*  */
+#minus{display: none;}
+/* .add{display: block;} */

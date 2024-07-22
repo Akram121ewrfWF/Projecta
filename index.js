@@ -1,39 +1,57 @@
-onload = function (){
-   
-let dark = this.document.getElementById('dark');
-let header_dark = this.document.querySelector('header');
-let main_dark = document.querySelector('main');
-let nav_dark  = document.querySelector('nav');
-let footer_dark  = document.querySelector('footer');
-let gallry_dark = this.document.getElementById('gallry-dark');
-let h2_dark = this.document.getElementsByClassName('H2-dark')
-dark.addEventListener('click', function(){
-    header_dark.style.background = '#080808';
-    main_dark.style.background = '#080808';
-    nav_dark.style.background = '#080808';
-    gallry_dark.style.background = "#080808 ";
-    footer_dark.style.background = '#080808';
-    h2_dark[0].style.color ='#FFF';
-    h2_dark[1].style.color ='#FFF';
-    h2_dark[2].style.color ='#FFF';
-    h2_dark[3].style.color ='#FFF';
-    h2_dark[4].style.color ='#FFF';
-    h2_dark[5].style.color ='#FFF';
-    h2_dark[6].style.color ='#FFF';
-    h2_dark[7].style.color ='#FFF';
-    h2_dark[8].style.color ='#FFF';
-    h2_dark[9].style.color ='#FFF';
-    h2_dark[10].style.color ='#FFF';
-    h2_dark[11].style.color ='#FFF';
-    // anchor_dark.style.color ='#FFF';
-});
-dark.addEventListener('dblclick', function(){
-    header_dark.style.background = '#fff';
-    main_dark.style.background = '#fff';
-    nav_dark.style.background = '#fff';
-    section_one.style.background = "#FFF"
-    footer_dark.style.background = '#fff';
-});
+onload = function(){
 
-    
-}  
+let Line_One = document.getElementById('content-Line-One');
+let Line_Two = document.getElementById('content-Line-Two');
+let Line_Three = document.getElementById('content-Line-Three');
+let Line_Four = document.getElementById('content-Line-Four');
+
+Line_One.style.transition='1s'
+// Line_One.style.transform ='scale(0)'
+Line_One.style.opacity ='0.1';
+Line_Two.style.transition='2s'
+Line_Two.style.transform ='scale(0)'
+Line_Two.style.opacity ='0.1';
+Line_Three.style.transition='3s'
+Line_Three.style.transform ='scale(0)'
+Line_Three.style.opacity ='0.1';
+Line_Four.style.transition='4s'
+Line_Four.style.transform ='scale(0)'
+Line_Four.style.opacity ='0.1';
+
+
+this.window.onscroll = function(){
+    if(scrollY >= 1){
+        Line_One.style.opacity ='1';
+        Line_One.style.transform ='scale(1)'
+        Line_Two.style.opacity ='1';
+        Line_Two.style.transform ='scale(1)'
+        Line_Three.style.opacity ='1';
+        Line_Three.style.transform ='scale(1)'
+        Line_Four.style.opacity ='1';
+        Line_Four.style.transform ='scale(1)'
+        
+    }
+    else if(scrollY < 1){
+        Line_One.style.opacity ='0.1';
+        // Line_One.style.transform ='scale(0)'
+        Line_Two.style.opacity ='0.1';
+        Line_Two.style.transform ='scale(0)'
+        Line_Three.style.opacity ='0.1';
+        Line_Three.style.transform ='scale(0)'
+        Line_Four.style.opacity ='0.1';
+        Line_Four.style.transform ='scale(0)'
+    }
+}
+let btn = document.getElementById('btn');
+let Plus = document.getElementById('pluss');
+let minus = document.getElementById('minus');
+
+
+btn.onclick = function(){
+    Plus.classList.toggle('none');
+    minus.classList.toggle('none');
+    minus.classList.toggle('block');
+
+}
+}
+
